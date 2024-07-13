@@ -1,0 +1,55 @@
+/* small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px){
+  #hairstyles ul{
+    justify-content: center;
+  }
+}
+/* medium devices (tablets, 768px and up)*/
+@media(min-width: 768px){
+  .sub-hero h2{
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  #contact-us h3{
+    max-width: 400px;
+  }
+  #contact-us form{
+    width: 300px;
+  }
+  
+}
+/* Large devices (desktops, 992px and up)*/
+@media(min-width: 992px){
+  .sub-hero{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sub-hero h2{
+    text-align: center;
+    width: 400px;
+    margin: 0;
+  }
+  .sub-hero img{
+    width: 400px;
+  }
+  
+}
+/* Large devices (desktops, 1200px and up)*/
+@media(min-width: 1200px){
+  #hairstyles{
+    max-width: 900px;
+  }
+  #pricing{
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #about-us{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #about-us p{
+    line-height: 1.5;
+  }
+}
